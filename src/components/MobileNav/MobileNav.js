@@ -8,7 +8,7 @@ const MobileNav = () => {
     <Container>
       <Spacer />
       <NavWrapper>
-        <NavLink to="/">
+        <NavLink to="/aboutme">
           <NavButton
             hasIconOnly
             renderIcon={User32}

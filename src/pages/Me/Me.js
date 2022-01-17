@@ -4,6 +4,7 @@ import { SectionTitle, Paragraph, Pill } from "../../styles";
 import { ProfileLink } from "./styles";
 
 const Me = ({ user }) => {
+  console.log("USER INFO: ", user);
   return (
     <Layout user={user}>
       <div>
@@ -24,13 +25,9 @@ const Me = ({ user }) => {
           {user.basics.profiles.map((profile, i) => (
             <ProfileLink key={profile.network}>
               {i !== 0 && " | "}
-              <a
-                href={profile.url + "/aboutme"}
-                target="_blank"
-                rel="noreferrer noopener"
-              >
+              {/* <a href={profile.url} target="_blank" rel="noreferrer noopener">
                 {profile.network}
-              </a>
+              </a> */}
             </ProfileLink>
           ))}
         </ul>
