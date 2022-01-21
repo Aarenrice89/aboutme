@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Credit
+
+Credit is due to Trey Huffine for providing informative instructions on how to form a template for the React app that dynamically updates based on changes made in gitconnect profile
+
+Tutorial URL: https://levelup.gitconnected.com/build-an-awesome-developer-portfolio-website-using-react-667abd7bab4d
+
+GitConnected URL: https://gitconnected.com/aarenrice89
+
+
